@@ -15,8 +15,9 @@ We cover end-user workflows that are common for cloud-native workflows with inte
 - [The Basic Elements](basic-elements)
 - [Teaching with 2i2c](teaching)
 
-> [!info]
-> Here are some other resources about 2i2c's services
-> - [2i2c.org](https://2i2c.org/)
-> - [Hub Service Guide](https://docs.2i2c.org/)
-> - [2i2c GitHub](https://github.com/2i2c-org)
+```{note}
+Here are some other resources about 2i2c's services
+- [2i2c.org](https://2i2c.org/)
+- [Hub Service Guide](https://docs.2i2c.org/)
+- [2i2c GitHub](https://github.com/2i2c-org)
+```
