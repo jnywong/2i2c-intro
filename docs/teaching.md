@@ -1,3 +1,4 @@
+(teaching)=
 # Teaching with 2i2c
 
 JupyterHub can be a great resource for teaching and we we encourage people to
