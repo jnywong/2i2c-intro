@@ -384,8 +384,7 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="the-basic-elements">
 <span id="basic-elements"></span><h1>The Basic Elements<a class="headerlink" href="#the-basic-elements" title="Permalink to this heading">#</a></h1>
 <p>The 2i2c computing service is an implementation of the Jupyter Hub on
-dedicated hardware accessible over the web. There is a great deal of information
-about Jupyter available at the Jupyter project <a class="reference external" href="http://jupyter.org/">site</a></p>
+dedicated hardware accessible over the web. There is a great deal of information about Jupyter available at the Jupyter project <a class="reference external" href="http://jupyter.org/">site</a></p>
 <p>There are four key concepts to master:</p>
 <ul class="simple">
 <li><p>the Hub</p></li>
@@ -396,98 +395,57 @@ about Jupyter available at the Jupyter project <a class="reference external" hre
 <p>This chapter discusses all four.</p>
 <section id="using-the-hub">
 <h2>Using the Hub<a class="headerlink" href="#using-the-hub" title="Permalink to this heading">#</a></h2>
-<p>You get to the Hub by logging into the <a class="reference external" href="http://2i2c.org">2i2c.org</a> service and clicking the button to “Start My Server.”</p>
+<p>Log into the <a class="reference external" href="https://2i2c.org/">2i2c.org</a> service and clicking the button to “Start My Server.”</p>
 <p>The Hub is a page that lists all your files and folders. It looks like this:</p>
 <p><img alt="Hub image" src="_images/Hub.png" /></p>
-<p>As you can see, the Hub looks a lot like the list of files and folders you would
-see in the Finder on MacOS, or in the File Explorer in Windows.</p>
-<p>At the top right corner of this front page is a “Control Panel” that lets you
-access your Jupyter server, to turn it on or off. Also is the logout button, to
-end your session.</p>
+<p>As you can see, the Hub looks a lot like the list of files and folders you would see in the Finder on MacOS, or in the File Explorer in Windows.</p>
+<p>At the top right corner of this front page is a “Control Panel” that lets you access your Jupyter server, to turn it on or off. Also is the logout button, to end your session.</p>
 <p>The main body is the list of folders and files that you have on your server.</p>
-<p>Click on a file or folder to open it. Use the checkbox on the left to select a
-file, then do something with it. For instance, you can choose to rename it, copy
-it, stop it from running, or delete it.</p>
-<p>It is a good idea to create folders at the top level, to organize your work into
-usable spaces. It turns out it is hard to move a file once it is created. (More
-on this below.) So you should start by organizing your folders and files at the
-top level.</p>
-<p>Near the top right, you see the upload button, which allows you to upload a file
-from your computer onto the Jupyter Hub. You can upload any file, including any
-data files or image files you might wish to analyse.</p>
-<p>Also near the top right is the “New” button, which allows you to create a new
-folder or file. You can make text files, notebook files in Python, Julia or R,
-or open a Unix terminal window.</p>
+<p>Click on a file or folder to open it. Use the checkbox on the left to select a file, then do something with it. For instance, you can choose to rename it, copy it, stop it from running, or delete it.</p>
+<p>It is a good idea to create folders at the top level, to organize your work into usable spaces. It turns out it is hard to move a file once it is created. (More on this below.) So you should start by organizing your folders and files at the top level.</p>
+<p>Near the top right, you see the upload button, which allows you to upload a file from your computer onto the Jupyter Hub. You can upload any file, including any data files or image files you might wish to analyse.</p>
+<p>Also near the top right is the “New” button, which allows you to create a new folder or file. You can make text files, notebook files in Python, Julia or R, or open a Unix terminal window.</p>
 </section>
 <section id="moving-files-between-folders">
 <h2>Moving files between folders<a class="headerlink" href="#moving-files-between-folders" title="Permalink to this heading">#</a></h2>
-<p>It’s not documented, but there is a way to move files and folders in and out of
-various folders directly from the Hub.</p>
-<p>Select a file listed in the Hub by clicking on the square box at the left of the
-file’s name. You are then given the option to “rename” the file. Click on the
-rename button, and then enter one of the following:</p>
+<p>It’s not documented, but there is a way to move files and folders in and out of various folders directly from the Hub.</p>
+<p>Select a file listed in the Hub by clicking on the square box at the left of the file’s name. You are then given the option to “rename” the file. Click on the rename button, and then enter one of the following:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">newname</span></code>  – to give the file the new name</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">../oldname</span></code> – to move the file up and out of the current folder, into the
-previous forder</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">foldername/oldname</span></code> – to move the file into the folder called “foldername.”
-This folder should already exist (because you created it earlier with a “new
-folder” command).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">../oldname</span></code> – to move the file up and out of the current folder, into the previous folder</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">foldername/oldname</span></code> – to move the file into the folder called “foldername.” This folder should already exist (because you created it earlier with a “new folder” command).</p></li>
 </ul>
 <p>These renaming methods also work to move folders and their contents.</p>
-<p>To move across several branches in the directory tree, you need to know the full
-path name of your files and where they are to go. This means you need to find
-out the name of your root tree structure. A fast way to do this is to use the
-magic command <code class="docutils literal notranslate"><span class="pre">%cd</span></code> in a notebook.</p>
-<p>Open a notebook, click on an empty cell, and type <code class="docutils literal notranslate"><span class="pre">%cd</span></code>, hit shift-return. It
-will return the director root name. Typically something like <code class="docutils literal notranslate"><span class="pre">/home/username</span></code> or
-<code class="docutils literal notranslate"><span class="pre">/home/usernumber</span></code>.</p>
-<p>You can now use this to move a file into any folder. Just rename the file
-something like <code class="docutils literal notranslate"><span class="pre">/home/username/folderA/filename</span></code>. (the folderA better exist
-already, for you to move something into this.)</p>
+<p>To move across several branches in the directory tree, you need to know the full path name of your files and where they are to go. This means you need to find out the name of your root tree structure. A fast way to do this is to use the magic command <code class="docutils literal notranslate"><span class="pre">%cd</span></code> in a notebook.</p>
+<p>Open a notebook, click on an empty cell, and type <code class="docutils literal notranslate"><span class="pre">%cd</span></code>, hit shift-return. It will return the directory root name. Typically something like <code class="docutils literal notranslate"><span class="pre">/home/username</span></code> or <code class="docutils literal notranslate"><span class="pre">/home/usernumber</span></code>.</p>
+<p>You can now use this to move a file into any folder. Just rename the file something like <code class="docutils literal notranslate"><span class="pre">/home/username/folderA/filename</span></code>. (the folderA better exist already, for you to move something into this.)</p>
 </section>
 <section id="using-notebooks">
 <h2>Using Notebooks<a class="headerlink" href="#using-notebooks" title="Permalink to this heading">#</a></h2>
-<p>From the Hub, you can click on a Notebook (a files with the suffix .ipynb) or
-create a new one with the “New” button. You need to pick a computing language
-(Python, Julia or R) when you create a new Notebook; for now, just choose
-<strong>Python 3</strong>.</p>
+<p>From the Hub, you can click on a Notebook (a files with the suffix <code class="docutils literal notranslate"><span class="pre">.ipynb</span></code>) or create a new one with the “New” button. You need to pick a computing language (Python, Julia or R) when you create a new Notebook; for now, just choose <strong>Python 3</strong>.</p>
 <p>The Notebook will look something like this.</p>
 <p><img alt="png" src="_images/Notebook.png" /></p>
-<p>At the top is the name of the notebook (in this case, “Untitled”). You can click
-on that name and edit it to whatever you like.</p>
-<p>Just under the title is the menu bar, which allows you to do many things with
-the Notebook, including saving it, downloading it to your own computer, editing
-it, inserting new cells, and so on.</p>
+<p>At the top is the name of the notebook (in this case, “Untitled”). You can click on that name and edit it to whatever you like.</p>
+<p>Just under the title is the menu bar, which allows you to do many things with the Notebook, including saving it, downloading it to your own computer, editing it, inserting new cells, and so on.</p>
 <p>There is also an icon bar of menu short cuts. All of them are pretty obvious.</p>
-<p>Below the menu controls is the Notebook content, which consists of a sequence of
-cells. Each cell can contain Markdown text or computer code. You select which
-kind of content for that cell from the little icon in the icon bar at the top.</p>
-<p>In the example illustrated here, the first cell is just text. It says “This is
-an example of a Notebook.” The second cell is Markdown text, including a math
-formula in LaTeX format. It starts “Here is an example of some math…”</p>
-<p>The third cell shows the math formula as a real math formula, with an integral
-sign and all. The math is just typed in (like in the second cell), and then you
-hit “shift-return” on the keyboard to typeset the math.</p>
-<p>The final few cells show some code, that loads in some plotting tools and makes
-a simple plot.</p>
+<p>Below the menu controls is the Notebook content, which consists of a sequence of cells. Each cell can contain Markdown text or computer code. You select which kind of content for that cell from the little icon in the icon bar at the top.</p>
+<p>In the example illustrated here, the first cell is just text. It says “This is an example of a Notebook.” The second cell is Markdown text, including a math formula in LaTeX format. It starts “Here is an example of some math…”</p>
+<p>The third cell shows the math formula as a real math formula, with an integral sign and all. The math is just typed in (like in the second cell), and then you hit “shift-return” on the keyboard to typeset the math.</p>
+<p>The final few cells show some code, that loads in some plotting tools and makes a simple plot.</p>
 </section>
 <section id="pretty-text-and-math-markdown-language">
 <h2>Pretty Text and Math (Markdown Language)<a class="headerlink" href="#pretty-text-and-math-markdown-language" title="Permalink to this heading">#</a></h2>
-<p>One great feature of the Jupyter Notebooks is that they can contain formatted
-text, and mathematics, using the Markdown language.</p>
+<p>One great feature of the Jupyter Notebooks is that they can contain formatted text, and mathematics, using the Markdown language.</p>
 <p>Markdown is a rich language: a quick introduction to it is available <a class="reference external" href="https://guides.github.com/features/mastering-markdown/">here</a>.</p>
 <p>Some quick points.</p>
 <section id="editing-and-typesetting">
 <h3>Editing and typesetting<a class="headerlink" href="#editing-and-typesetting" title="Permalink to this heading">#</a></h3>
 <p>You simply type your text and Markdown symbols into a cell, and hit
-“shift-return” to typeset the cell into pretty text (and math). Click on the
-cell again to undo the typesetting, so you can edit and fix your text. Make
-sure, of course, that you have marked the cell as “Markdown” and not “Code.”</p>
+“shift-return” to typeset the cell into pretty text (and math). Click on the cell again to undo the typesetting, so you can edit and fix your text. Make sure, of course, that you have marked the cell as “Markdown” and not “Code.”</p>
 </section>
 <section id="headers">
 <h3>Headers<a class="headerlink" href="#headers" title="Permalink to this heading">#</a></h3>
-<p>Headers are made by starting the line with one or more hash marks #</p>
+<p>Headers are made by starting the line with one or more hash marks #.</p>
 <p>#### This is a level-4 header, in text form</p>
 <section id="this-is-the-resulting-header">
 <h4>This is the resulting header<a class="headerlink" href="#this-is-the-resulting-header" title="Permalink to this heading">#</a></h4>
@@ -501,9 +459,9 @@ sure, of course, that you have marked the cell as “Markdown” and not “Code
 <section id="lists">
 <h3>Lists<a class="headerlink" href="#lists" title="Permalink to this heading">#</a></h3>
 <p>Type this:</p>
-<p>* Apple</p>
-<p>* Orange</p>
-<p>* Pear</p>
+<p>* Apple
+* Orange
+* Pear</p>
 <p>to get a list like this:</p>
 <ul class="simple">
 <li><p>Apple</p></li>
@@ -513,8 +471,7 @@ sure, of course, that you have marked the cell as “Markdown” and not “Code
 </section>
 <section id="web-links">
 <h3>Web links<a class="headerlink" href="#web-links" title="Permalink to this heading">#</a></h3>
-<p>Type this: [GitHub](<a class="github reference external" href="http://github.com">github</a>)
-to get a clickable link <a class="reference external" href="http://github.com">GitHub</a></p>
+<p>Type this: [GitHub](<a class="github reference external" href="http://github.com">github</a>) to get a clickable link <a class="reference external" href="http://github.com">GitHub</a></p>
 </section>
 <section id="mathematics">
 <h3>Mathematics<a class="headerlink" href="#mathematics" title="Permalink to this heading">#</a></h3>
