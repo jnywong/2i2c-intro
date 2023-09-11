@@ -2,7 +2,7 @@
 
 # Introduction to 2i2c
 
-Introduction to [2i2c](https://2i2c.org/) is a [JupyterBook](https://jupyterbook.org/en/stable/intro.html) that contains resources for learning how to use 2i2c services. The content covers
+Introduction to 2i2c is a [JupyterBook](https://jupyterbook.org/en/stable/intro.html) that contains resources for learning how to use [2i2c](https://2i2c.org/)services. The content covers
 
 - The Basic Elements
 - Teaching with 2i2c.
