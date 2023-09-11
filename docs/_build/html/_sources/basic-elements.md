@@ -29,13 +29,13 @@ The Hub is a page that lists all your files and folders. It looks like this:
 ![Hub image](Hub.png)
 
 As you can see, the Hub looks a lot like the list of files and folders you would
-see in the Finder on MacOS, or in the File Explorer in Windows. 
+see in the Finder on MacOS, or in the File Explorer in Windows.
 
 At the top right corner of this front page is a "Control Panel" that lets you
 access your Jupyter server, to turn it on or off. Also is the logout button, to
 end your session.
 
-The main body is the list of folders and files that you have on your server. 
+The main body is the list of folders and files that you have on your server.
 
 Click on a file or folder to open it. Use the checkbox on the left to select a
 file, then do something with it. For instance, you can choose to rename it, copy
@@ -52,7 +52,7 @@ data files or image files you might wish to analyse.
 
 Also near the top right is the "New" button, which allows you to create a new
 folder or file. You can make text files, notebook files in Python, Julia or R,
-or open a Unix terminal window. 
+or open a Unix terminal window.
 
 ## Moving files between folders
 
@@ -92,22 +92,22 @@ create a new one with the "New" button. You need to pick a computing language
 (Python, Julia or R) when you create a new Notebook; for now, just choose
 **Python 3**.
 
-The Notebook will look something like this. 
+The Notebook will look something like this.
 
 ![png](Notebook.png)
 
 At the top is the name of the notebook (in this case, "Untitled"). You can click
-on that name and edit it to whatever you like. 
+on that name and edit it to whatever you like.
 
 Just under the title is the menu bar, which allows you to do many things with
 the Notebook, including saving it, downloading it to your own computer, editing
-it, inserting new cells, and so on. 
+it, inserting new cells, and so on.
 
-There is also an icon bar of menu short cuts. All of them are pretty obvious. 
+There is also an icon bar of menu short cuts. All of them are pretty obvious.
 
 Below the menu controls is the Notebook content, which consists of a sequence of
 cells. Each cell can contain Markdown text or computer code. You select which
-kind of content for that cell from the little icon in the icon bar at the top.  
+kind of content for that cell from the little icon in the icon bar at the top.
 
 In the example illustrated here, the first cell is just text. It says "This is
 an example of a Notebook." The second cell is Markdown text, including a math
@@ -115,7 +115,7 @@ formula in LaTeX format. It starts "Here is an example of some math..."
 
 The third cell shows the math formula as a real math formula, with an integral
 sign and all. The math is just typed in (like in the second cell), and then you
-hit "shift-return" on the keyboard to typeset the math. 
+hit "shift-return" on the keyboard to typeset the math.
 
 The final few cells show some code, that loads in some plotting tools and makes
 a simple plot.
@@ -178,7 +178,7 @@ Use the dollar sign \$ to indicate the start and end of TeX code for your math.
 ```
 Here is a basic integral: $\int \cos(x) dx = \sin(x)$
 ```
-Here is a basic integral: $$\int \cos(x) dx = 
+Here is a basic integral: $$\int \cos(x) dx =
 \sin(x)$$
 
 ### Images

@@ -1,0 +1,12 @@
+repos:
+-   repo: https://github.com/jumanjihouse/pre-commit-hooks 
+    rev: 3.0.0
+    hooks:
+    -   id: markdownlint
+        name: Markdownlint
+        description: Run markdownlint on your Markdown files
+        entry: mdl
+        language: ruby
+        files: \.(md|mdown|markdown)$
+        exclude: docs/_build
+        args: [-c .mdlrc]
