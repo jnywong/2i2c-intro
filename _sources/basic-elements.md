@@ -1,9 +1,3 @@
----
-date: 2023-09-11
-title: "The Basic Elements"
-weight: 25
----
-
 # The Basic Elements
 
 The 2i2c computing service is an implementation of the Jupyter Hub on
@@ -125,8 +119,7 @@ a simple plot.
 One great feature of the Jupyter Notebooks is that they can contain formatted
 text, and mathematics, using the Markdown language.
 
-Markdown is a rich language: a quick introduction to it is available here:
-https://guides.github.com/features/mastering-markdown/
+Markdown is a rich language: a quick introduction to it is available [here](https://guides.github.com/features/mastering-markdown/).
 
 Some quick points.
 
@@ -142,15 +135,17 @@ sure, of course, that you have marked the cell as "Markdown" and not "Code."
 Headers are made by starting the line with one or more hash marks \#
 
 \#### This is a level-4 header, in text form
-##### This is the resulting header
+
+#### This is the resulting header
 
 ### Emphasis
 
 Add emphasis by surrounding text with asterix or underscores.
 
-\* italics \* and \*\* bold \*\*:  *Italics* and **bold**
+\*italics\* and \*\*bold\*\*:  *Italics* and **bold**
 
 ### Lists
+
 Type this:
 
 \* Apple
@@ -161,31 +156,32 @@ Type this:
 
 to get a list like this:
 
-* Apple
-* Orange
-* Pear
-
+- Apple
+- Orange
+- Pear
 
 ### Web links
 
-Type this: \[GitHub](http://github.com)
+Type this: \[GitHub]([http://github.com](http://github.com))
 to get a clickable link [GitHub](http://github.com)
 
 ### Mathematics
 
 Use the dollar sign \$ to indicate the start and end of TeX code for your math.
 
-```
+```{math}
 Here is a basic integral: $\int \cos(x) dx = \sin(x)$
 ```
+
 Here is a basic integral: $$\int \cos(x) dx =
 \sin(x)$$
 
 ### Images
 
 Here is some code to embed an image from the web:
-```
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+```markdown
+![Image of GitHub cat](https://octodex.github.com/images/original.png)
 ```
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![Image of GitHub cat](https://octodex.github.com/images/original.png)
