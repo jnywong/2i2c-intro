@@ -14,8 +14,8 @@ A table summarizing our services and their prices are in this [link](https://doc
 
 We cover end-user workflows that are common for cloud-native workflows with interactive computing.
 
-- [The Basic Elements](/jupyterbook/basic-elements.md)
-- [Teaching with 2i2c](/jupyterbook/teaching.md)
+- [The Basic Elements](basic-elements)
+- [Teaching with 2i2c](teaching)
 
 ## Other Resources
 
