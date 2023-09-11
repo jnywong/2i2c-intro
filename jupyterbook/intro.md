@@ -1,11 +1,24 @@
-# Welcome to your Jupyter Book
+# Introduction to 2i2c
 
-This is a small sample book to give you a feel for how book content is
-structured.
-It shows off a few of the major file types, as well as some sample content.
-It does not go in-depth into any particular topic - check out [the Jupyter Book documentation](https://jupyterbook.org) for more information.
+*Welcome to Introduction to 2i2c. This handbook is a guide to using 2i2c services.*
 
-Check out the content pages bundled with this sample book to see more.
+2i2c designs, develops and operates JupyterHubs in the cloud for communities of practice in research & education. It builds and supports open source infrastructure that serves these communities. Our mission is to make research and education more impactful, accessible, and delightful by developing, operating, and supporting infrastructure for interactive computing.
 
-```{tableofcontents}
-```
+## About the Service
+
+Our Hub service is an open, scalable, sustainable cloud service for interactive computing environments. We offer cloud infrastructure hubs that are designed for use-cases in research and education, and flexible enough to be tailored to the needs of each community.
+
+A table summarizing our services and their prices are in this [link](https://docs.google.com/document/d/1FNiDyKNDoe_TgU2WxuNZ5CayYD56tlNJpImQsAIGOmg/edit?usp=sharing).
+
+## Get Started
+
+We cover end-user workflows that are common for cloud-native workflows with interactive computing.
+
+- [The Basic Elements](/jupyterbook/basic-elements.md)
+- [Teaching with 2i2c](/jupyterbook/teaching.md)
+
+## Other Resources
+
+- [2i2c.org](https://2i2c.org/)
+- [Hub Service Guide](https://docs.2i2c.org/)
+- [2i2c GitHub](https://github.com/2i2c-org)

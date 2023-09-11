@@ -1,8 +1,10 @@
 ---
-date: 2016-03-09T19:56:50+01:00
+date: 2023-09-11
 title: "The Basic Elements"
 weight: 25
 ---
+
+# The Basic Elements
 
 The 2i2c computing service is an implementation of the Jupyter Hub on
 dedicated hardware accessible over the web. There is a great deal of information
@@ -39,7 +41,6 @@ Click on a file or folder to open it. Use the checkbox on the left to select a
 file, then do something with it. For instance, you can choose to rename it, copy
 it, stop it from running, or delete it.
 
-
 It is a good idea to create folders at the top level, to organize your work into
 usable spaces. It turns out it is hard to move a file once it is created. (More
 on this below.) So you should start by organizing your folders and files at the
@@ -54,6 +55,7 @@ folder or file. You can make text files, notebook files in Python, Julia or R,
 or open a Unix terminal window. 
 
 ## Moving files between folders
+
 It's not documented, but there is a way to move files and folders in and out of
 various folders directly from the Hub.
 
@@ -61,12 +63,12 @@ Select a file listed in the Hub by clicking on the square box at the left of the
 file's name. You are then given the option to "rename" the file. Click on the
 rename button, and then enter one of the following:
 
-  - `newname`  -- to give the file the new name
-  - `../oldname` -- to move the file up and out of the current folder, into the
-    previous forder
-  - `foldername/oldname` -- to move the file into the folder called "foldername."
-    This folder should already exist (because you created it earlier with a "new
-    folder" command).
+- `newname`  -- to give the file the new name
+- `../oldname` -- to move the file up and out of the current folder, into the
+  previous forder
+- `foldername/oldname` -- to move the file into the folder called "foldername."
+  This folder should already exist (because you created it earlier with a "new
+  folder" command).
 
 These renaming methods also work to move folders and their contents.
 
@@ -82,8 +84,6 @@ will return the director root name. Typically something like `/home/username` or
 You can now use this to move a file into any folder. Just rename the file
 something like `/home/username/folderA/filename`. (the folderA better exist
 already, for you to move something into this.)
-
-
 
 ## Using Notebooks
 

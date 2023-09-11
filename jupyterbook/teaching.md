@@ -1,8 +1,9 @@
 ---
-date: 2018-01-22T15:10:23+07:00
+date: 2023-09-11
 title: "Teaching with 2i2c"
 weight: 81
 ---
+# Teaching with 2i2c
 
 JupyterHub can be a great resource for teaching and we we encourage people to
 use 2i2c to help teach their classes, but you should keep the following
